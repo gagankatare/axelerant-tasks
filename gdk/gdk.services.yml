@@ -1,0 +1,5 @@
+services:
+  gdk.route_subscriber:
+    class: Drupal\gdk\Routing\RouteSubscriber
+    tags:
+      - { name: event_subscriber }

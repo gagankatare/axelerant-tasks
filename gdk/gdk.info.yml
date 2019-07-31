@@ -1,0 +1,6 @@
+name: GDK
+type: module
+description: A custom module to set a Key for the site as well and display a JSON representation of a node type of only page using the site API key.
+package: Custom
+version: 8.1.0
+core: 8.x

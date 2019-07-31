@@ -1,0 +1,7 @@
+gdk_json_url:
+  path: 'page_json/{api_key}/{id}'
+  defaults:
+    _title: 'Basic Page Node to JSON'
+    _controller: '\Drupal\gdk\Controller\GdkController::render_json'
+  requirements:
+    _permission: 'administer gdk'
